@@ -1,0 +1,45 @@
+h1 {
+    font-family:'Times New Roman', Times, serif ;
+}
+p {
+    font-family:monospace;
+    font-size: 13px;
+}
+body {
+    background: rgb(136, 240, 222);
+    max-width: 1000px;
+    margin: auto;
+    text-align: justify;   
+}
+header {
+    text-align: center;
+}
+.listas {
+    font-style: italic;
+}
+.titles {
+    font-size: 18px;
+}
+#foto {
+    border-radius: 50%;
+    width: 250px;
+}
+#indice {
+    font-size: 22px;
+}
+#city {
+    color: rgb(170, 112, 5);
+}
+section {
+    background: rgb(247, 211, 223);
+    margin: 20px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.marcados {
+    color:rgb(156, 28, 28);
+}
+.lista1-itens {
+    color:brown
+}
