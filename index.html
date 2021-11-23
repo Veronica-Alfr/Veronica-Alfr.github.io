@@ -2,10 +2,37 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Verônica Alves</title>    
+    <title>Verônica Alves</title>
+    <style>
+        h1 {
+            font-family:'Times New Roman', Times, serif ;
+        }
+        p {
+            font-family:monospace;
+            font-size: 13px;
+        }
+        body {
+            background: rgb(136, 240, 222);
+        }
+        .listas {
+            font-style: italic;
+        }
+        .titles {
+            font-size: 18px;
+        }
+        #foto {
+            border-radius: 50%;
+        }
+        #indice {
+            font-size: 22px;
+        }
+        #city {
+            color: rgb(212, 83, 212);
+        }
+    </style>   
 </head>
-<body> <h2>Índice</h2>
-    <ol>
+<body> <h2 id="indice">Índice</h2>
+    <ol class="listas">
         <li><a href="#eu">Sobre mim</a></li>
         <li><a href="#habilidades">Minhas habilidades</a></li>
         <li><a href="#indicação">Indicação</a></li>
@@ -13,10 +40,10 @@
     </ol>
     <hr>
     <h1>Verônica Alves</h1>
-    <img src="Foto-work2.jpeg" id="Verônica" alt="Verônica Alves de blusa verde em um espaço com paredes brancas" 
+    <img id="foto" src="Foto-work2.jpeg" id="Verônica" alt="Verônica Alves de blusa verde em um espaço com paredes brancas" 
     width="250px" title="Verônica Alves">
-    <h3 id="eu">Sobre mim:</h3>
-    <p>Meu nome é <a href="#Verônica">Verônica</a>, sou de Montes Claros(MG). Estou sempre buscando descobrir sobre mim, e nesses últimos 2 anos 
+    <h3 class="titles" id="eu">Sobre mim:</h3>
+    <p>Meu nome é <a href="#Verônica">Verônica</a>, sou de <a id="city">Montes Claros(MG)</a>. Estou sempre buscando descobrir sobre mim, e nesses últimos 2 anos 
        fiz dois cursos, um em redes, e outro em chatbots, mas não prossegui em ambos.
        Nesse tempo estudava programação, e agora me encontro na Trybe, com um forte desejo que dê tudo certo!<br>
        Penso em ter meu cantinho onde posso realizar os meus gostos por arte, como, por exemplo, pintura em tela 
@@ -24,8 +51,8 @@
        vale a pena fazermos o que quisermos ^-^ !!
     </p>
     <hr>
-    <h3 id="habilidades">Minhas habilidades:</h3>
-    <ol>
+    <h3 class="titles" id="habilidades">Minhas habilidades:</h3>
+    <ol class= "listas">
         <li><strong>Algoritmos</strong></li>
         <li><strong>HTML e CSS básicos</strong></li>
         <li><strong>JKD facha branca</strong></li>
@@ -35,7 +62,7 @@
        e hoje em dia posso realizá-las com muita alegria :) ! </em>
     </p>
     <hr>
-    <h3 id="indicação">Indicação:</h3>
+    <h3 class="titles" id="indicação">Indicação:</h3>
     <p>E para as pessoas interessadas em um site de aprendizagem em programação, indico um que gosto bastante, o 
         <a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a>.</p>
     <hr>
