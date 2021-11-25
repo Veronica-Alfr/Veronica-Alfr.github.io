@@ -23,12 +23,15 @@ header {
 #foto {
     border-radius: 50%;
     width: 250px;
+    float: left;
+    padding: 5px;
+    background-color: rgb(85, 199, 193);
 }
 #indice {
     font-size: 22px;
 }
 #city {
-    color: rgb(170, 112, 5);
+    color: rgb(133, 21, 82);
 }
 section {
     background: rgb(247, 211, 223);
@@ -44,5 +47,18 @@ section {
     color:brown
 }
 #eu2 {
-    color:rgb(170, 112, 5)
+    color:rgb(133, 21, 82);
+}
+#img_container {
+    height: 300px;
+    height: 260px;
+    position: relative;
+}
+#descricao {
+    position: absolute;
+    top: 10px;
+    left: 250px;
+}
+ol li:nth-child(odd) {
+    color: rgb(26, 94, 90);
 }
